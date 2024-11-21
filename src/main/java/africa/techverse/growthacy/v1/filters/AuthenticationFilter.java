@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
-@Component
+
 public class AuthenticationFilter extends HttpFilter {
     private final JsonWebToken jsonWebToken;
     private final UserService userService;
